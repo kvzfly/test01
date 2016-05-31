@@ -6,7 +6,7 @@ redis:
 pyapp:
   restart: always
   tty: true
-  image: 192.168.5.31:80/python-redis-demo:$$BUILD_NUMBER$$
+  image: 192.168.5.36:5002//poc/python-redis-demo:$$BUILD_NUMBER$$
   links:
   - 'redis:'
   stdin_open: true
